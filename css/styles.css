@@ -1,0 +1,177 @@
+/* с прозрачностью rgba(255, 255, 255, 0.6); */
+:root {
+  --main-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --background-black: #2f303a;
+  --background-section: #f5f4fa;
+  --main-font: Roboto, sans-serif;
+  --main-foter-color: #000000;
+}
+body {
+  background-color: var(--white-color);
+  color: var(--main-text-color);
+  font-family: var(--main-font);
+  letter-spacing: 0.03em;
+}
+/*  */
+.list {
+  list-style: none;
+}
+
+/* header */
+.logo,
+.foter-logo {
+  color: var(--main-foter-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+.foter-logo {
+  color: var(--white-color);
+}
+/* Навигация */
+.site-nav .link {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* контакты */
+.contacts a {
+  color: var(--main-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--accent-color);
+}
+/* сss для странички "Студия" */
+/* hero */
+.section-hero {
+  background-color: var(--background-black);
+}
+.hero-title {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  border: none;
+}
+/* features */
+.features h3 {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.features .text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+/* section */
+.section > h2 {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+/* team */
+.team-section {
+  background-color: var(--background-section);
+}
+.team-section h3,
+.team {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.18;
+}
+/* css для "Портфолио" */
+.button-primary {
+  color: var(--title-text-color);
+  background-color: var(--background-section);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  border: none;
+}
+.button-secondary:hover,
+.button-secondary:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.portfolio h2 {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio p {
+  font-size: 16px;
+  line-height: 1.87;
+}
+/* foter */
+.page-foter {
+  background-color: var(--background-black);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.address-contacts {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.address-section {
+  color: var(--white-color);
+  text-decoration: none;
+}
+.address-contacts:focus,
+.address-contacts:hover {
+  color: var(--accent-color);
+}
