@@ -8,6 +8,8 @@
   --background-section: #f5f4fa;
   --main-font: Roboto, sans-serif;
   --main-foter-color: #000000;
+  --box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 html {
   box-sizing: border-box;
@@ -151,8 +153,9 @@ body {
 }
 /* features */
 .section-title {
-  margin: 0;
-  opacity: 0;
+  /* margin: 0;
+  opacity: 0; */
+  visibility: hidden;
 }
 .features {
   padding-bottom: 0;
@@ -188,6 +191,7 @@ body {
 .section-item h2 {
   margin-top: 0;
   margin-bottom: 50px;
+
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -201,9 +205,7 @@ body {
 }
 
 .team-card {
-  background-color: #f5f4fa;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--box-shadow);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
 }
@@ -230,6 +232,7 @@ body {
 .team {
   margin-top: 0;
   margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -238,13 +241,13 @@ body {
 .team-text {
   padding-bottom: 30px;
   margin: 0;
+
   font-size: 16px;
   line-height: 1.18;
 }
 /* css для "Портфолио" */
 .portfolio-title {
-  opacity: 0;
-  margin: 0;
+  visibility: hidden;
 }
 .btn {
   display: flex;
@@ -257,6 +260,7 @@ body {
 .button-primary {
   width: 128px;
   min-height: 38px;
+
   color: var(--title-text-color);
   background-color: var(--background-section);
   cursor: pointer;
@@ -292,6 +296,7 @@ body {
   margin-bottom: 4px;
   padding-left: 24px;
   margin-top: 20px;
+
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -302,6 +307,7 @@ body {
   margin-top: 0;
   padding-bottom: 20px;
   padding-left: 24px;
+
   font-size: 16px;
   line-height: 1.87;
 }
@@ -309,6 +315,7 @@ body {
 .page-foter {
   padding-top: 60px;
   padding-bottom: 60px;
+
   background-color: var(--background-black);
   font-size: 14px;
   line-height: 1.7;
