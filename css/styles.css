@@ -290,7 +290,6 @@ body {
   margin-right: 30px;
   margin-bottom: 30px;
   width: 370px;
-  /* flex-basis: calc(100% / 3); */
   border: 1px solid #eeeeee;
 }
 .element:nth-child(3n) {
