@@ -324,7 +324,9 @@ body {
 .foter-item:not(:last-child) {
   margin-bottom: 9px;
 }
-
+.foter-item {
+  font-style: normal;
+}
 .address-contacts {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
